@@ -25,7 +25,7 @@ bot.onText(/\/start/, (msg) => {
   bot.sendMessage(chatId, `Welcome to our e-commerce bot! How can I help you today?`, {
     reply_markup: {
       inline_keyboard: [
-        [{ text: 'View Products', web_app: { url: 'https://hacktech.xyz' } }],
+        [{ text: 'View Products', web_app: { url: 'https://funtoo.onrender.com' } }],
         [{ text: 'Talk to AI Assistant', callback_data: 'ai_assistant' }]
       ]
     }
